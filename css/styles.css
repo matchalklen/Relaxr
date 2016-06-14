@@ -1,7 +1,149 @@
-h1{
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800,300italic);
 
+body{
+	background: none;
+	text-align: center;
+}
+
+header{
+	background: url(images/header_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 325px;
 }
 
 p{
-	
+	margin: 0px;
+}
+
+h1{
+	margin: 0px;
+}
+
+#relaxr{
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 24px;
+	color: white;
+	width: 100%;
+	text-align: left;
+	padding-left: 8%;
+}
+
+#mind p{
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 24px;
+	color: white;
+	padding-top: 40px;
+}
+
+#get{
+	padding-top: 40px;
+}
+
+#get p{
+	display: inline-block;
+	padding: 5px 30px 5px 30px;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 14px;
+	color: #033048;
+	border-radius: 5px;
+	background-color: #f9e42e
+}
+
+#benefits{
+	background-color: #f0efef;
+	text-align: left;
+	padding-left: 8%;
+	color: #606161;
+	height: 250px;
+}
+
+#benefits h1{
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+	padding-top: 10px;
+}
+
+#benefits p{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 13px;
+}
+
+#benefits ul{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 13px;
+}
+
+#testimonial{
+	background: url(images/testimonial_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#testimonial p{
+	font-family: 'Open Sans';
+	font-weight: 300italic;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+#testimonial #amanda p{
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#signup{
+	background-color: #f9e42e;
+	height: 30px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+#signup p{
+	display: inline-block;
+	padding: 5px 30px 5px 30px;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #033048;
+	background-position: center;
+    background-size: cover;
+}
+
+footer{
+	background-color: #121212;
+	height: 170px;
+}
+
+#copyright h1{
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#copyright p{
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 9px;
+	color: white;
+	padding-top: 30px
+}
+
+#copyright a{
+	padding-right: 20px;
 }
